@@ -9,8 +9,7 @@ Application:hfnet/application.ipynb
 
 Output: hfnet/dataset/EXPER_PATH
 
-
-       SuperPoint/SuprtPointDATA/EXPER_DIR
+SuperPoint/SuprtPointDATA/EXPER_DIR
         
         
 We shall have a more organized version to be uploaded here before June 17.
