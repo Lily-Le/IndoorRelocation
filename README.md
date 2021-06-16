@@ -1,6 +1,6 @@
 # EE231
 ## HFNET
-Run application.ipynb to show our application
+Run `application.ipynb` to show our application
 
 Reference:https://github.com/ethz-asl/hfnet
 
@@ -19,7 +19,7 @@ The datasets are downloaded as indicated in the [dataset documentation](doc/data
 ## Superpoint
 Reference: https://github.com/rpautrat/SuperPoint
 
-Process of training with synthetic dataset: Superpoint_train_explore.ipynb
+Process of training with synthetic dataset: `Superpoint_train_explore.ipynb`
 
 output :
 https://drive.google.com/drive/folders/1tHNplSRgd6IUNkYT9LgR3UAM6HTM-7D1?usp=sharing
