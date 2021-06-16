@@ -5,6 +5,7 @@ Reference:https://github.com/ethz-asl/hfnet
 train_explore:  Process of exporting labels of google landmarks with superpoint and netVLAD, and then distill to get the student model.
 The outputs are saved in EXPER_PATH, which is too large to be uploaded here but is available on Google Drive.
 https://drive.google.com/drive/folders/1EeG0GBsqh271rInTTbPrsRe96g6nuXHL?usp=sharing
+
 output path: hfnet/dataset/EXPER_PATH
 
 test_explore: Process of evaluating the trained models.
