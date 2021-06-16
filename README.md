@@ -10,7 +10,7 @@ output path: hfnet/dataset/EXPER_PATH
 
 test_explore: Process of evaluating the trained models.
 
-The datasets are downloaded as indicated in the [dataset documentation](doc/datasets.md). SfM models of Aachen, RobotCar, CMU, and Extended CMU, built SuperPoint and usable with HF-Net, are provided [here](https://projects.asl.ethz.ch/datasets/doku.php?id=cvpr2019hfnet). Download and unpack the HF-Net weights in `$EXPER_PATH/hfnet/`. To localize with NV+SP, download the network weights of [NetVLAD](http://rpg.ifi.uzh.ch/datasets/netvlad/vd16_pitts30k_conv5_3_vlad_preL2_intra_white.zip) and [SuperPoint](https://github.com/MagicLeapResearch/SuperPointPretrainedNetwork/blob/master/superpoint_v1.pth) and put them in `hfnet/dataset/DATA_PATH/weights/`.
+The datasets are downloaded as indicated in the [dataset documentation](doc/datasets.md). SfM models of Aachen, RobotCar, CMU, and Extended CMU, built SuperPoint and usable with HF-Net, are provided [here](https://projects.asl.ethz.ch/datasets/doku.php?id=cvpr2019hfnet). Download and unpack the HF-Net weights in `hfnet/dataset/EXPER_PATH/hfnet/`. To localize with NV+SP, download the network weights of [NetVLAD](http://rpg.ifi.uzh.ch/datasets/netvlad/vd16_pitts30k_conv5_3_vlad_preL2_intra_white.zip) and [SuperPoint](https://github.com/MagicLeapResearch/SuperPointPretrainedNetwork/blob/master/superpoint_v1.pth) and put them in `hfnet/dataset/DATA_PATH/weights/`.
 
 
 
@@ -23,7 +23,7 @@ https://drive.google.com/drive/folders/1tHNplSRgd6IUNkYT9LgR3UAM6HTM-7D1?usp=sha
 
 output path: SuperPoint/SuperPointDATA/EXPER_DIR
 
-[MS-COCO 2014](http://cocodataset.org/#download) and [HPatches](http://icvl.ee.ic.ac.uk/vbalnt/hpatches/hpatches-sequences-release.tar.gz) should be downloaded into `$DATA_DIR`. The Synthetic Shapes dataset will also be generated there. The folder structure should look like:
+[MS-COCO 2014](http://cocodataset.org/#download) and [HPatches](http://icvl.ee.ic.ac.uk/vbalnt/hpatches/hpatches-sequences-release.tar.gz) should be downloaded into `SuperPoint/SuperPointDATA/DATA_DIR`. The Synthetic Shapes dataset will also be generated there. The folder structure should look like:
 ```
 $DATA_DIR
 |-- COCO
