@@ -1,5 +1,5 @@
 # EE231
-##HFNET
+## HFNET
 Run application.ipynb to show our application
 Reference:https://github.com/ethz-asl/hfnet
 train_explore:  Process of exporting labels of google landmarks with superpoint and netVLAD, and then distill to get the student model.
@@ -13,7 +13,7 @@ The datasets are downloaded as indicated in the https://github.com/ethz-asl/hfn
 
 
 
-##Superpoint
+## Superpoint
 Reference: https://github.com/rpautrat/SuperPoint
 Process of training with synthetic dataset: Superpoint_train_explore.ipynb
 
