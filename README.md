@@ -1,7 +1,7 @@
-# EE231
-## HFNET
-Run `application.ipynb` to show our application
 
+## HFNET Application: Locate yourself in the mall just by taking a photo!
+Run `application.ipynb` .  
+商场内拍照定位应用。任意视角拍摄一张商户照片，与实现数据库照片比对，返回数据库对应照片的坐标，解决室内GPS较弱情况下的定位问题。
 Reference: https://github.com/ethz-asl/hfnet
 
 `train_explore`: Process of exporting labels of google landmarks with superpoint and netVLAD, and then distill to get the student model.
